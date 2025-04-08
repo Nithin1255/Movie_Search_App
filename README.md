@@ -1,12 +1,25 @@
-# React + Vite
+# Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based Movie Search app that allows users to search for movies by title. The app fetches movie data from the OMDB API and displays information such as the movie's title, year, and poster. It's an easy-to-use movie discovery tool to find details about your favorite movies!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search for movies**: Enter a movie title and find relevant results.
+- **Display movie details**: Shows the movie's title, year of release, and poster image.
+- **Loading state**: Displays a loading message while fetching movie data.
+- **No image available fallback**: Displays a placeholder image if no poster is available for a movie.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: A JavaScript library for building user interfaces.
+- **Axios**: A promise-based HTTP client for making requests to the OMDB API.
+- **OMDB API**: A free API to search for movie data, including titles, posters, and other details.
+
+## Setup
+
+To get started with the app locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Nithin1255/Movie_Search_App.git
