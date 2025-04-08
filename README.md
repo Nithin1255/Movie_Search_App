@@ -22,4 +22,8 @@ To get started with the app locally:
 1. Clone the repository:
 
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/Nithin1255/Movie_Search_App.git
+=======
+   git clone https://github.com/Nithin1255/Movie_Search_App.git
+>>>>>>> 41e5d438c5c07c04b43f44622494b8b056b67517
